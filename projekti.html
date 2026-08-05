@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="proj.css">
+
+    <title>MD Bau Berlin GmbH</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+
+    <div class="logo">
+         <span class="logo-main">MD BAU</span>
+         <span class="logo-sub">Berlin GmbH</span>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link lang" data-key="home" href="index.html">Startseite</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link lang" data-key="services" href="index.html#our-services">Dienstleistungen</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link lang" data-key="projects" href="projekti.html">Projekte</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link lang" data-key="contact" href="index.html#kontakt">Kontakt</a>
+        </li>
+
+       
+      <li class="nav-item ms-3 lang-switch">
+        <button onclick="setLang('de')" class="lang-btn">DE</button>
+        <button onclick="setLang('sr')" class="lang-btn">SR</button>
+      </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- hero za projekte-->
+ <section class="projects-hero">
+<h1>Unsere Projekte</h1>
+<p>Ein Überblick über unsere abgeschlossenen Bauprojekte</p>
+
+<div class="filters">
+<button class="active lang" data-filter="all" data-key="allproject">Alle Projekte</button>
+<button class="lang" data-filter="trockenbau" data-key="trockenbau">Trockenbau</button>
+<button class="lang" data-filter="decken" data-key="decken">Decken</button>
+<button class="lang" data-filter="isolierung" data-key="isolierung">Isolierung</button>
+<button class="lang" data-filter="holzbauarbeiten" data-key="holzbauarbeiten">Holzbauarbeiten</button>
+<button class="lang" data-filter="mauerarbeiten" data-key="mauerarbeiten">Mauerarbeiten</button>
+</div>
+</section>
+
+<!-- grid obavljenih posloba-->
+
+<section class="projects-grid">
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips2.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips3.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips4.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips5.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips6.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips7.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips8.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips9.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="trockenbau">
+<img src="poslovi/rigips10.jpeg">
+<div class="overlay">
+<p>Trockenbau</p>
+</div>
+</div>
+
+<div class="project" data-category="decken">
+<img src="poslovi/plafoni0.jpeg">
+<div class="overlay">
+<p>Decken</p>
+</div>
+</div>
+
+<div class="project" data-category="decken">
+<img src="poslovi/plafoni1.jpeg">
+<div class="overlay">
+<p>Decken</p>
+</div>
+</div>
+
+<div class="project" data-category="decken">
+<img src="poslovi/plafoni2.jpeg">
+<div class="overlay">
+<p>Decken</p>
+</div>
+</div>
+
+<div class="project" data-category="decken">
+<img src="poslovi/plafoni3.jpeg">
+<div class="overlay">
+<p>Decken</p>
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna.jpeg">
+<div class="overlay">
+
+<p>Isolierung</p>
+
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna2.jpeg">
+<div class="overlay">
+
+<p>Isolierung</p>
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna3.jpeg">
+<div class="overlay">
+
+<p>Isolierung</p>
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna4.jpeg">
+<div class="overlay">
+
+<p>Isolierung</p>
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna5.jpeg">
+<div class="overlay">
+<p>Isolierung</p>
+</div>
+</div>
+
+<div class="project" data-category="isolierung">
+<img src="poslovi/vuna6.jpeg">
+<div class="overlay">
+<p>Isolierung</p>
+</div>
+</div>
+
+<div class="project" data-category="holzbauarbeiten">
+<img src="poslovi/drvo-pregrada.jpeg">
+<div class="overlay">
+<p>Holzbauarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="holzbauarbeiten">
+<img src="poslovi/drvo0.jpeg">
+<div class="overlay">
+<p>Holzbauarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="holzbauarbeiten">
+<img src="poslovi/drvo1.jpeg">
+<div class="overlay">
+<p>Holzbauarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="holzbauarbeiten">
+<img src="poslovi/drvo2.jpeg">
+<div class="overlay">
+<p>Holzbauarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje0.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje1.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje2.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje3.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje4.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/zidanje5.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+<div class="project" data-category="mauerarbeiten">
+<img src="poslovi/armatura0.jpeg">
+<div class="overlay">
+<p>Mauerarbeiten</p>
+</div>
+</div>
+
+</section>
+
+ 
+
+<footer class="footer" id="footer">
+  <div class="container py-5">
+
+    <div class="row align-items-center">
+
+   
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <div class="logo">
+          <span class="logo-main">MD BAU</span><br>
+          <span class="logo-sub">Berlin GmbH</span>
+        </div>
+      </div>
+
+    
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <p class="mb-1">Landsberger Allee 394</p>
+        <p class="mb-0">Berlin 12681</p>
+      </div>
+
+      
+      <div class="col-md-4 text-center text-md-end">
+      <a href="mailto:md.bb.gmbh@gmail.com" class="footer-link">md.bb.gmbh@gmail.com</a>
+        
+      </div>
+
+    </div>
+
+
+  </div>
+</footer>
+
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
